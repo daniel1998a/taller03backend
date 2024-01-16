@@ -1,0 +1,31 @@
+POST http://localhost:3000/PerroMasc/crear HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "tito",
+    "edad": 2,
+    "razaPe": "grand danes",
+}
+
+###
+
+PUT http://localhost:3000/PerroMasc/actualizar/1 HTTP/1.1
+Content-Type: application/json
+
+{
+   "nombre":"toomy",
+    "edad":10,
+    "razaPe":"grand danes"
+}
+
+
+###
+DELETE http://localhost:3000/PerroMasc/eliminar/1 HTTP/1.1
+
+###
+GET  http://localhost:3000/PerroMasc/buscar/1 HTTP/1.1
+
+###
+GET  http://localhost:3000/PerroMasc/buscar HTTP/1.1
+
+
